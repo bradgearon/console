@@ -94,12 +94,12 @@ extern CAppModule _Module;
 #include <string>
 #include <map>
 #include <vector>
+#include <functional>
 using namespace std;
 #pragma warning(pop)
 
 #pragma warning(push)
 #pragma warning(disable: 4244 4267 4511 4512 701 4702)
-#include <boost/bind.hpp>
 #include <boost/format.hpp>
 #include <boost/tokenizer.hpp>
 #include <boost/algorithm/string.hpp>

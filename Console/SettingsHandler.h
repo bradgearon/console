@@ -653,7 +653,7 @@ struct MouseSettings : public SettingsBase
 	typedef Commands::index<commandName>::type		CommandNameIndex;
 */
 
-	Commands	commands;
+	Commands 	commands;
 };
 
 //////////////////////////////////////////////////////////////////////////////

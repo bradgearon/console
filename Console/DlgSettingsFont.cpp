@@ -125,7 +125,7 @@ LRESULT DlgSettingsFont::OnClickedBtnBrowseFont(WORD /*wNotifyCode*/, WORD /*wID
 	lf.lfWeight	= m_fontSettings.bBold ? FW_BOLD : FW_NORMAL;
 	lf.lfItalic	= m_fontSettings.bItalic ? 1 : 0;
 
-	CFontDialog	fontDlg(&lf, CF_FIXEDPITCHONLY|CF_SCREENFONTS);
+	CFontDialog	fontDlg(&lf);
 
 
 	if (fontDlg.DoModal() == IDOK)

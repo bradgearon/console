@@ -78,13 +78,13 @@ class SharedMemoryLock
 	public:
 
 		template <typename T> explicit SharedMemoryLock(SharedMemory<T>& sharedMem)
-		: m_lock((sharedMem.Lock(), &sharedMem), boost::mem_fn(&SharedMemory<T>::Release))
+		: m_lock((sharedMem.Lock(), &sharedMem), mem_fn(&SharedMemory<T>::Release))
 		{
 		}
 
 	private:
 
-		std::shared_ptr<void>	m_lock;
+    std::shared_ptr<void>	m_lock;
 };
 
 //////////////////////////////////////////////////////////////////////////////

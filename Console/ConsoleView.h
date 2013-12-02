@@ -249,6 +249,10 @@ private:
   static int            m_nHInsideBorder;
   static DWORD          m_dwFontSize;
   static DWORD          m_dwFontZoom;
+
+  int m_lastCharWidth = 0;
+  vector<abcFloat> charWidths;
+  TEXTMETRIC textMetric;
 };
 
 //////////////////////////////////////////////////////////////////////////////

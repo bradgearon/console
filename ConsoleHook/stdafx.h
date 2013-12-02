@@ -21,16 +21,18 @@
 #include <psapi.h>
 #include <dbghelp.h>
 
+
 #include <string>
 using namespace std;
 
 #pragma warning(push)
 #pragma warning(disable: 4244 4267 4511 4512 4702)
 #include <boost/format.hpp>
-#include <boost/mem_fn.hpp>
-#include <boost/bind.hpp>
 #include <boost/algorithm/string/trim.hpp>
 #pragma warning(pop)
+
+#include <memory>
+#include <functional>
 
 #include "../shared/SharedMemory.h"
 #include "../shared/Structures.h"

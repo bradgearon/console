@@ -1,0 +1,18 @@
+[submodule "submodules/lib/boost"]
+		path = submodules/lib/boost
+		url = ./
+[submodule "submodules/lib/boost/bind"]
+        path = submodules/lib/boost/bind
+        url = ../bind.git
+[submodule "submodules/lib/boost/format"]
+        path = submodules/lib/boost/format
+        url = ../format.git
+[submodule "submodules/lib/boost/tokenizer"]
+        path = submodules/lib/boost/tokenizer
+        url = ../tokenizer.git
+[submodule "submodules/lib/boost/algorithm"]
+        path = submodules/lib/boost/algorithm
+        url = ../algorithm.git
+[submodule "submodules/lib/boost/multi_index"]
+        path = submodules/lib/boost/multi_index
+        url = ../multi_index.git
